@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&family=Poetsen+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+}
+body ,html{
+    height: 100%;
+    width: 100%;
+    margin: inherit;
+    padding: inherit;
+    background-color: black;
+
+}
+#main{
+    background-color: black;
+    color: white;
+}
+nav{
+    background-color: dimgray;
+    height: 3vw;
+    width: 100vw;
+    padding: 2vw;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    /* margin: 4vw; */
+}
+
+h1,li{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+
+   
+}
+
+li{
+    margin: 2vw;
+}
+
+#contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+.gamebox{
+    display: grid;
+    grid-template-rows : repeat(3,10vw);
+    grid-template-columns:  repeat(3,10vw);
+    justify-content: center;
+    align-items: center;
+    margin: 5vw;
+    /* border: solid 1px white; */
+
+    
+}
+.box{
+    
+    height: 10vw;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 1px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3vw;
+}
+
+
+
+.winner {
+  height: 0px;
+}
+
+.winnerShow{
+    
+    height: 190px;
+}
+  
+
+.box:hover
+{
+    background-color: rgba(248,248,255,0.5);
+    cursor: pointer;
+}
+
+.topB-0{
+    border-top: none;
+}
+
+.leftB-0{
+    border-left: none;
+}
+
+.rightB-0{
+    border-right: none;
+}
+.downB-0{
+    border-bottom: none;
+}
+
+.gameinfomation p{
+    margin-left: 3vw;
+    margin-top: 1vw;
+}
+.reset{
+    background-color: white;
+    margin: 3vw;
+    width: 6vw;
+    
+}
+
+.buttonShow{
+    display: none;
+}
